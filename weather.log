@@ -1,0 +1,167 @@
+ERROR:root:Error fetching current weather data for minneapolis, us
+Traceback (most recent call last):
+  File "C:\Users\abdif\OneDrive\Desktop\capstone\week7\weather_api.py", line 23, in main
+    temp_desc = extract_temp_desc(forecast)
+  File "C:\Users\abdif\OneDrive\Desktop\capstone\week7\weather_api.py", line 93, in extract_temp_desc
+    return data['weather']['description']
+TypeError: list indices must be integers or slices, not str
+INFO:root:Successful query with result: on 2021-10-10 16:00:00 The temperature in Minneapolis, US will be 
+                68.25 F with wind speed of 14.41 mph and scattered clouds
+INFO:root:Successful query with result: on 2021-10-10 19:00:00 The temperature in Minneapolis, US will be 
+                64.44 F with wind speed of 13.22 mph and broken clouds
+INFO:root:Successful query with result: on 2021-10-10 22:00:00 The temperature in Minneapolis, US will be 
+                57.45 F with wind speed of 9.93 mph and broken clouds
+INFO:root:Successful query with result: on 2021-10-11 01:00:00 The temperature in Minneapolis, US will be 
+                55.22 F with wind speed of 7.47 mph and broken clouds
+INFO:root:Successful query with result: on 2021-10-11 04:00:00 The temperature in Minneapolis, US will be 
+                53.98 F with wind speed of 5.55 mph and scattered clouds
+INFO:root:Successful query with result: on 2021-10-11 07:00:00 The temperature in Minneapolis, US will be 
+                53.29 F with wind speed of 3.67 mph and broken clouds
+INFO:root:Successful query with result: on 2021-10-11 10:00:00 The temperature in Minneapolis, US will be 
+                57.31 F with wind speed of 2.82 mph and overcast clouds
+INFO:root:Successful query with result: on 2021-10-11 13:00:00 The temperature in Minneapolis, US will be 
+                64.00 F with wind speed of 5.75 mph and overcast clouds
+INFO:root:Successful query with result: on 2021-10-11 16:00:00 The temperature in Minneapolis, US will be 
+                67.75 F with wind speed of 8.12 mph and overcast clouds
+INFO:root:Successful query with result: on 2021-10-11 19:00:00 The temperature in Minneapolis, US will be 
+                65.88 F with wind speed of 5.99 mph and overcast clouds
+INFO:root:Successful query with result: on 2021-10-11 22:00:00 The temperature in Minneapolis, US will be 
+                64.00 F with wind speed of 8.99 mph and overcast clouds
+INFO:root:Successful query with result: on 2021-10-12 01:00:00 The temperature in Minneapolis, US will be 
+                62.26 F with wind speed of 8.57 mph and overcast clouds
+INFO:root:Successful query with result: on 2021-10-12 04:00:00 The temperature in Minneapolis, US will be 
+                58.28 F with wind speed of 6.80 mph and scattered clouds
+INFO:root:Successful query with result: on 2021-10-12 07:00:00 The temperature in Minneapolis, US will be 
+                59.52 F with wind speed of 6.71 mph and broken clouds
+INFO:root:Successful query with result: on 2021-10-12 10:00:00 The temperature in Minneapolis, US will be 
+                59.74 F with wind speed of 6.44 mph and overcast clouds
+INFO:root:Successful query with result: on 2021-10-12 13:00:00 The temperature in Minneapolis, US will be 
+                62.51 F with wind speed of 6.02 mph and overcast clouds
+INFO:root:Successful query with result: on 2021-10-12 16:00:00 The temperature in Minneapolis, US will be 
+                65.52 F with wind speed of 5.86 mph and broken clouds
+INFO:root:Successful query with result: on 2021-10-12 19:00:00 The temperature in Minneapolis, US will be 
+                62.04 F with wind speed of 4.56 mph and scattered clouds
+INFO:root:Successful query with result: on 2021-10-12 22:00:00 The temperature in Minneapolis, US will be 
+                59.50 F with wind speed of 5.23 mph and clear sky
+INFO:root:Successful query with result: on 2021-10-13 01:00:00 The temperature in Minneapolis, US will be 
+                57.81 F with wind speed of 6.96 mph and few clouds
+INFO:root:Successful query with result: on 2021-10-13 04:00:00 The temperature in Minneapolis, US will be 
+                58.05 F with wind speed of 9.10 mph and overcast clouds
+INFO:root:Successful query with result: on 2021-10-13 07:00:00 The temperature in Minneapolis, US will be 
+                58.68 F with wind speed of 10.96 mph and overcast clouds
+INFO:root:Successful query with result: on 2021-10-13 10:00:00 The temperature in Minneapolis, US will be 
+                57.58 F with wind speed of 15.50 mph and light rain
+INFO:root:Successful query with result: on 2021-10-13 13:00:00 The temperature in Minneapolis, US will be 
+                58.21 F with wind speed of 20.15 mph and light rain
+INFO:root:Successful query with result: on 2021-10-13 16:00:00 The temperature in Minneapolis, US will be 
+                59.09 F with wind speed of 16.11 mph and light rain
+INFO:root:Successful query with result: on 2021-10-13 19:00:00 The temperature in Minneapolis, US will be 
+                63.03 F with wind speed of 16.28 mph and light rain
+INFO:root:Successful query with result: on 2021-10-13 22:00:00 The temperature in Minneapolis, US will be 
+                57.60 F with wind speed of 15.79 mph and clear sky
+INFO:root:Successful query with result: on 2021-10-14 01:00:00 The temperature in Minneapolis, US will be 
+                53.67 F with wind speed of 14.72 mph and clear sky
+INFO:root:Successful query with result: on 2021-10-14 04:00:00 The temperature in Minneapolis, US will be 
+                53.44 F with wind speed of 12.19 mph and clear sky
+INFO:root:Successful query with result: on 2021-10-14 07:00:00 The temperature in Minneapolis, US will be 
+                51.94 F with wind speed of 12.48 mph and clear sky
+INFO:root:Successful query with result: on 2021-10-14 10:00:00 The temperature in Minneapolis, US will be 
+                54.84 F with wind speed of 12.75 mph and clear sky
+INFO:root:Successful query with result: on 2021-10-14 13:00:00 The temperature in Minneapolis, US will be 
+                61.99 F with wind speed of 12.17 mph and clear sky
+INFO:root:Successful query with result: on 2021-10-14 16:00:00 The temperature in Minneapolis, US will be 
+                64.92 F with wind speed of 10.63 mph and clear sky
+INFO:root:Successful query with result: on 2021-10-14 19:00:00 The temperature in Minneapolis, US will be 
+                60.03 F with wind speed of 5.41 mph and clear sky
+INFO:root:Successful query with result: on 2021-10-14 22:00:00 The temperature in Minneapolis, US will be 
+                55.00 F with wind speed of 7.29 mph and clear sky
+INFO:root:Successful query with result: on 2021-10-15 01:00:00 The temperature in Minneapolis, US will be 
+                51.28 F with wind speed of 8.08 mph and scattered clouds
+INFO:root:Successful query with result: on 2021-10-15 04:00:00 The temperature in Minneapolis, US will be 
+                47.66 F with wind speed of 7.20 mph and scattered clouds
+INFO:root:Successful query with result: on 2021-10-15 07:00:00 The temperature in Minneapolis, US will be 
+                45.39 F with wind speed of 8.23 mph and scattered clouds
+INFO:root:Successful query with result: on 2021-10-15 10:00:00 The temperature in Minneapolis, US will be 
+                48.34 F with wind speed of 10.09 mph and clear sky
+INFO:root:Successful query with result: on 2021-10-15 13:00:00 The temperature in Minneapolis, US will be 
+                52.56 F with wind speed of 11.23 mph and scattered clouds
+INFO:root:Successful query with result: on 2021-10-10 16:00:00 The temperature in London, UK will be 
+                56.30 F with wind speed of 7.29 mph and broken clouds
+INFO:root:Successful query with result: on 2021-10-10 19:00:00 The temperature in London, UK will be 
+                53.80 F with wind speed of 7.31 mph and broken clouds
+INFO:root:Successful query with result: on 2021-10-10 22:00:00 The temperature in London, UK will be 
+                50.65 F with wind speed of 7.05 mph and overcast clouds
+INFO:root:Successful query with result: on 2021-10-11 01:00:00 The temperature in London, UK will be 
+                49.69 F with wind speed of 5.68 mph and overcast clouds
+INFO:root:Successful query with result: on 2021-10-11 04:00:00 The temperature in London, UK will be 
+                52.99 F with wind speed of 6.22 mph and broken clouds
+INFO:root:Successful query with result: on 2021-10-11 07:00:00 The temperature in London, UK will be 
+                57.09 F with wind speed of 6.24 mph and broken clouds
+INFO:root:Successful query with result: on 2021-10-11 10:00:00 The temperature in London, UK will be 
+                59.41 F with wind speed of 7.27 mph and overcast clouds
+INFO:root:Successful query with result: on 2021-10-11 13:00:00 The temperature in London, UK will be 
+                56.35 F with wind speed of 4.25 mph and overcast clouds
+INFO:root:Successful query with result: on 2021-10-11 16:00:00 The temperature in London, UK will be 
+                53.87 F with wind speed of 5.68 mph and broken clouds
+INFO:root:Successful query with result: on 2021-10-11 19:00:00 The temperature in London, UK will be 
+                51.55 F with wind speed of 6.15 mph and broken clouds
+INFO:root:Successful query with result: on 2021-10-11 22:00:00 The temperature in London, UK will be 
+                50.23 F with wind speed of 6.20 mph and broken clouds
+INFO:root:Successful query with result: on 2021-10-12 01:00:00 The temperature in London, UK will be 
+                49.86 F with wind speed of 6.42 mph and broken clouds
+INFO:root:Successful query with result: on 2021-10-12 04:00:00 The temperature in London, UK will be 
+                53.06 F with wind speed of 7.65 mph and overcast clouds
+INFO:root:Successful query with result: on 2021-10-12 07:00:00 The temperature in London, UK will be 
+                58.01 F with wind speed of 8.88 mph and overcast clouds
+INFO:root:Successful query with result: on 2021-10-12 10:00:00 The temperature in London, UK will be 
+                57.49 F with wind speed of 6.02 mph and overcast clouds
+INFO:root:Successful query with result: on 2021-10-12 13:00:00 The temperature in London, UK will be 
+                56.28 F with wind speed of 5.68 mph and light rain
+INFO:root:Successful query with result: on 2021-10-12 16:00:00 The temperature in London, UK will be 
+                52.50 F with wind speed of 3.78 mph and overcast clouds
+INFO:root:Successful query with result: on 2021-10-12 19:00:00 The temperature in London, UK will be 
+                52.07 F with wind speed of 4.63 mph and overcast clouds
+INFO:root:Successful query with result: on 2021-10-12 22:00:00 The temperature in London, UK will be 
+                50.97 F with wind speed of 4.09 mph and overcast clouds
+INFO:root:Successful query with result: on 2021-10-13 01:00:00 The temperature in London, UK will be 
+                50.29 F with wind speed of 3.49 mph and overcast clouds
+INFO:root:Successful query with result: on 2021-10-13 04:00:00 The temperature in London, UK will be 
+                51.89 F with wind speed of 2.55 mph and overcast clouds
+INFO:root:Successful query with result: on 2021-10-13 07:00:00 The temperature in London, UK will be 
+                57.20 F with wind speed of 2.95 mph and overcast clouds
+INFO:root:Successful query with result: on 2021-10-13 10:00:00 The temperature in London, UK will be 
+                59.90 F with wind speed of 3.20 mph and overcast clouds
+INFO:root:Successful query with result: on 2021-10-13 13:00:00 The temperature in London, UK will be 
+                58.06 F with wind speed of 0.98 mph and overcast clouds
+INFO:root:Successful query with result: on 2021-10-13 16:00:00 The temperature in London, UK will be 
+                57.38 F with wind speed of 3.24 mph and overcast clouds
+INFO:root:Successful query with result: on 2021-10-13 19:00:00 The temperature in London, UK will be 
+                54.70 F with wind speed of 3.22 mph and overcast clouds
+INFO:root:Successful query with result: on 2021-10-13 22:00:00 The temperature in London, UK will be 
+                53.10 F with wind speed of 3.44 mph and overcast clouds
+INFO:root:Successful query with result: on 2021-10-14 01:00:00 The temperature in London, UK will be 
+                51.82 F with wind speed of 3.74 mph and broken clouds
+INFO:root:Successful query with result: on 2021-10-14 04:00:00 The temperature in London, UK will be 
+                56.34 F with wind speed of 5.73 mph and few clouds
+INFO:root:Successful query with result: on 2021-10-14 07:00:00 The temperature in London, UK will be 
+                62.89 F with wind speed of 7.74 mph and few clouds
+INFO:root:Successful query with result: on 2021-10-14 10:00:00 The temperature in London, UK will be 
+                63.61 F with wind speed of 8.30 mph and overcast clouds
+INFO:root:Successful query with result: on 2021-10-14 13:00:00 The temperature in London, UK will be 
+                60.19 F with wind speed of 5.99 mph and overcast clouds
+INFO:root:Successful query with result: on 2021-10-14 16:00:00 The temperature in London, UK will be 
+                58.15 F with wind speed of 6.13 mph and overcast clouds
+INFO:root:Successful query with result: on 2021-10-14 19:00:00 The temperature in London, UK will be 
+                56.10 F with wind speed of 7.43 mph and overcast clouds
+INFO:root:Successful query with result: on 2021-10-14 22:00:00 The temperature in London, UK will be 
+                53.69 F with wind speed of 7.61 mph and broken clouds
+INFO:root:Successful query with result: on 2021-10-15 01:00:00 The temperature in London, UK will be 
+                52.48 F with wind speed of 6.85 mph and broken clouds
+INFO:root:Successful query with result: on 2021-10-15 04:00:00 The temperature in London, UK will be 
+                55.29 F with wind speed of 8.39 mph and overcast clouds
+INFO:root:Successful query with result: on 2021-10-15 07:00:00 The temperature in London, UK will be 
+                60.21 F with wind speed of 10.78 mph and overcast clouds
+INFO:root:Successful query with result: on 2021-10-15 10:00:00 The temperature in London, UK will be 
+                61.77 F with wind speed of 10.67 mph and overcast clouds
+INFO:root:Successful query with result: on 2021-10-15 13:00:00 The temperature in London, UK will be 
+                56.95 F with wind speed of 10.80 mph and overcast clouds
